@@ -19,9 +19,3 @@ img {
   color: hsl(210, 72%, 58%);
 }
 
-.story {
-  width: 95vh;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
