@@ -12,7 +12,6 @@ export default function BannerStory() {
       <div id="banner">
         <img src="/heroImage.jpg" alt="img" />
       </div>
-
       <div className="story">
         <h1>Story, emotion and purpose</h1>
         <p>

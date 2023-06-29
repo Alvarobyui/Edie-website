@@ -19,3 +19,12 @@ img {
   color: hsl(210, 72%, 58%);
 }
 
+@media screen and (min-width:57rem) {
+  .story {
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+}
