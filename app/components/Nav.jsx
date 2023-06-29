@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react";
 import Link from "next/link";
-import "./nav.css";
+import "./nav-small-view.css";
 
 function MenuIcon() {
   return (
@@ -30,9 +30,9 @@ export default function Nav() {
   };
 
   return (
-    <nav onClick={handleNav}>
+    <nav>
       <h3>Edie</h3>
-      <div id="menu-icon">
+      <div id="menu-icon" onClick={handleNav}>
       <MenuIcon/>
       </div>
       {navbar ? (
