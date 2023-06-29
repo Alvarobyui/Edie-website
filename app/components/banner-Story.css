@@ -1,5 +1,5 @@
 #banner {
-  max-width: 90%;
+  max-width: 95%;
   height: 100%;
 }
 
@@ -17,4 +17,11 @@ img {
 
 .title :nth-child(1) {
   color: hsl(210, 72%, 58%);
+}
+
+.story {
+  width: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
